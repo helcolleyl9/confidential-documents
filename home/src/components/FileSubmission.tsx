@@ -85,7 +85,7 @@ export function FileSubmission() {
             marginBottom: 'var(--spacing-md)',
             letterSpacing: '0.01em'
           }}>
-            📤 选择文件上传
+            📤 Select File to Upload
           </label>
           <div className="file-upload-area">
             <input 
@@ -128,8 +128,8 @@ export function FileSubmission() {
                 <div className="file-upload-placeholder">
                   <div className="upload-icon">📎</div>
                   <div className="upload-text">
-                    <strong>点击选择文件</strong>
-                    <span>或拖拽文件到此处</span>
+                    <strong>Click to Select File</strong>
+                    <span>or Drag and Drop Here</span>
                   </div>
                 </div>
               )}
@@ -151,7 +151,7 @@ export function FileSubmission() {
               color: 'rgba(255, 255, 255, 0.7)',
               marginBottom: 'var(--spacing-xs)'
             }}>
-              📝 文件名称
+              📝 File Name
             </label>
             <div style={{
               fontSize: '1.05rem',
